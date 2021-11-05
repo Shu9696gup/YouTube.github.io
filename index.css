@@ -133,19 +133,44 @@ margin-left: 25px;
 font-family: 'Roboto', sans-serif;
 }
 .card{
-    display: flex;
-    flex-direction: column;
+  
     width: 250px;
-    height: 290px;
+    height: 300px;
     margin: 5px;
 }
 .card img{
     width: 250px;
-    height: 145px;
+    height: 160px;
+}
+.channelLogo{
+    
+    display: flex;
+    
+}
+.channelLogo img{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    
 }
 .text1{
     font-family: 'Roboto', sans-serif;
     color: rgb(19, 18, 18);
+    display: flex;
+    flex-direction: column;  
+}
+#videoTitle{
+    padding: 10px 0;
+    text-align: justify;
+    padding-right: 5px;
+    font-weight: 600;
+}
+.videoDis{
+    font-size: 13px;
 }
 .videocontent{
     display: flex;
