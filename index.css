@@ -3,21 +3,26 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
-
+    
 }
 *{
     box-sizing: border-box;
     text-decoration: none;
+   
+}
+#main{
+    display: flex;
+    flex-direction: column;
 }
 .topbar{
     width: 100%;
     padding: 10px;
-    height: 10vh;
+    height: 50px;
     background-color: white;
     display: flex;
     align-items: center; 
     /* justify-content: center; */
-    /* position: static; */
+    position: fixed;
 }
 .iconNav{
     padding: 10px;
@@ -30,27 +35,29 @@ html,body{
     
 }
 #Search{
-    font-size: large;
+    /* font-size: large; */
     padding: 8px;
-    margin-left: 190px;
-    width: 40%;
+    margin-left: 10vw;
+    width: 45%;
+    min-width: 100px;
 }
 .iconSearch{
     border-radius: 0;
     background: none;
-    border: 1px solid rgba(54, 54, 54, 0.849);
-    border-left: none;
+    border: .2px solid rgba(134, 134, 134, 0.966);
+    /* border-left: none; */
     /* padding: 13px; */
     background-color: rgba(235, 232, 232, 0.466);
     width: 60px!important;
-    height: 42px;
+    height: 36px;
+    margin-left: -1px;
 }
 .iconVideo{
     border-radius: 0;
     background: none;
     border: none;   
     width: 60px; 
-    margin-left: 180px;
+    margin-left: 20vw;
 }
 .iconBell{
     border-radius: 0;
@@ -64,15 +71,16 @@ html,body{
 }
 .container{
     display: flex;    
-    
+    margin-top: 50px;
 }
 .sideBar{ 
     display: flex;
     flex-direction: column;   
     /* height: 90vh; */
-    flex: .18;    
+    /* flex: .18;     */
+    width: 33vw;
     padding: 8px;
-   
+   min-width: 195px !important;
     overflow-y: scroll ;
 }
 
@@ -109,9 +117,9 @@ background-color: rgba(194, 191, 191, 0.74);
 
 .mainContainer{    
     height: 90vh;
-    flex: .82;
+    /* flex: .82; */
     padding: 10px;
-
+    padding-top: 0px;
     
     
 }
@@ -119,14 +127,16 @@ background-color: rgba(194, 191, 191, 0.74);
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     padding: 10px;
     padding-left: 35px;
+   
     /* position: fixed; */
     border-top: 1px solid rgba(194, 191, 191, 0.74);
     border-bottom: 1px solid rgba(194, 191, 191, 0.74);
 }
 .suggestionElement{
-background-color: rgba(194, 191, 191, 0.74);
+background-color: rgba(194, 191, 191, 0.548);
 border-radius: 18px;
 padding: 10px 15px;
 margin-left: 25px;
@@ -177,7 +187,7 @@ font-family: 'Roboto', sans-serif;
     align-items: flex-start;
    justify-content: space-evenly;
    flex-wrap: wrap;
-   overflow-y: scroll;
+   
     
     
 }
