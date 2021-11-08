@@ -28,6 +28,7 @@ html,body{
     padding: 10px;
     background: none;
     border: none;
+    cursor:pointer;
 }
 #titleImage{
     padding: 10px;
@@ -51,6 +52,7 @@ html,body{
     width: 60px!important;
     height: 36px;
     margin-left: -1px;
+    cursor:pointer;
 }
 .iconVideo{
     border-radius: 0;
@@ -58,16 +60,18 @@ html,body{
     border: none;   
     width: 60px; 
     margin-left: 20vw;
+    cursor:pointer;
 }
 .iconBell{
     border-radius: 0;
     background: none;
     border: none;   
     width: 60px; 
-    
+    cursor:pointer;
 }
 #image{
     border-radius: 28px;
+    cursor:pointer;
 }
 .container{
     display: flex;    
@@ -82,11 +86,13 @@ html,body{
     padding: 8px;
    min-width: 195px !important;
     overflow-y: scroll ;
+    
 }
 
 
 .sideBarContent{
     padding: 12px;
+    cursor:pointer;
 }
 .sideBarText{
     font-weight: 500;
@@ -141,9 +147,10 @@ border-radius: 18px;
 padding: 10px 15px;
 margin-left: 25px;
 font-family: 'Roboto', sans-serif;
+cursor:pointer;
 }
 .card{
-  
+    cursor:pointer;
     width: 250px;
     height: 300px;
     margin: 5px;
